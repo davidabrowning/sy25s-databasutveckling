@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EFCoreInstall
+namespace HemläxaEgenDatabas
 {
     internal class Student
     {
@@ -13,6 +13,5 @@ namespace EFCoreInstall
         public string City { get; set; } = "";
         public int Age { get; set; }
         public int PhoneNumber { get; set; }
-        public int NumPets { get; set; }
     }
 }
